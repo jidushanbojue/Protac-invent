@@ -1,0 +1,67 @@
+{
+  "docking": {
+    "header": {
+      "logging": {
+        "logfile": "/home/cadd/PycharmProjects/DockStream-master/result/BRD9/ADV_docking.log"
+      }
+    },
+    "ligand_preparation": {
+      "embedding_pools": [
+        {
+          "pool_id": "RDkit_pool",
+          "type": "RDkit",
+          "parameters": {
+            "prefix_execution": "module load RDkit"
+          },
+          "input": {
+            "standardize_smiles": false,
+            "type": "console"
+          },
+          "align": {
+            "reference_paths": ["/home/cadd/PycharmProjects/DockStream-master/result/BRD9/brd9_ligand.pdb"],
+            "minimum_substructure_ratio": 0.2,
+            "mode": "debug",
+            "reference_format": "pdb"
+          }
+        }
+      ]
+    },
+    "docking_runs": [
+      {
+        "backend": "AutoDockVina",
+        "run_id": "AutoDockVina",
+        "input_pools": [
+          "RDkit_pool"
+        ],
+        "parameters": {
+          "binary_location": "/home/cadd/PycharmProjects/DockStream-master/DockStreamCommunity/autodock_vina_1_1_2_linux_x86/bin",
+          "parallelization": {
+            "number_cores": 28
+          },
+          "seed": 42,
+          "receptor_pdbqt_path": [
+            "/home/cadd/PycharmProjects/DockStream-master/result/BRD9/brd9_protein_apo.pdbqt"
+          ],
+          "number_poses": 2,
+          "search_space": {
+            "--center_x": -35.44,
+            "--center_y": 17.08,
+            "--center_z": -20.58,
+            "--size_x": 20,
+            "--size_y": 20,
+            "--size_z": 20
+          },
+          "local_only": true
+        },
+        "output": {
+          "poses": {
+            "poses_path": "/home/cadd/PycharmProjects/DockStream-master/result/BRD9/ADV_ligands_docked.sdf"
+          },
+          "scores": {
+            "scores_path": "/home/cadd/PycharmProjects/DockStream-master/result/BRD9/ADV_scores.csv"
+          }
+        }
+      }
+    ]
+  }
+}

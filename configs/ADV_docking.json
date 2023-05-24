@@ -1,0 +1,61 @@
+{
+  "docking": {
+    "header": {
+      "logging": {
+        "logfile": "/home/cadd/PycharmProjects/DockStream-master/result/CL_ADV_demo/ADV_docking.log"
+      }
+    },
+    "ligand_preparation": {
+      "embedding_pools": [
+        {
+          "pool_id": "RDkit_pool",
+          "type": "RDkit",
+          "parameters": {
+            "prefix_execution": "module load RDkit"
+          },
+          "input": {
+            "standardize_smiles": false,
+            "type": "smi",
+          }
+        }
+      ]
+    },
+    "docking_runs": [
+      {
+        "backend": "AutoDockVina",
+        "run_id": "AutoDockVina",
+        "input_pools": [
+          "RDkit_pool"
+        ],
+        "parameters": {
+          "binary_location": "/home/cadd/PycharmProjects/DockStream-master/DockStreamCommunity/autodock_vina_1_1_2_linux_x86/bin",
+          "parallelization": {
+            "number_cores": 28
+          },
+          "seed": 42,
+          "receptor_pdbqt_path": [
+            "/home/cadd/PycharmProjects/DockStream-master/result/Autodock_Vina_demo/ADV_receptor.pdbqt"
+          ],
+          "number_poses": 2,
+          "search_space": {
+            "--center_x": 3.3,
+            "--center_y": 11.5,
+            "--center_z": 24.8,
+            "--size_x": 15,
+            "--size_y": 10,
+            "--size_z": 10
+          },
+          "local_only": true
+        },
+        "output": {
+          "poses": {
+            "poses_path": "/home/cadd/PycharmProjects/DockStream-master/result/CL_ADV_demo/ADV_ligands_docked.sdf"
+          },
+          "scores": {
+            "scores_path": "/home/cadd/PycharmProjects/DockStream-master/result/CL_ADV_demo/ADV_scores.csv"
+          }
+        }
+      }
+    ]
+  }
+}
