@@ -1,0 +1,57 @@
+{
+    "version": 3,
+    "model_type": "link_invent",
+    "run_type": "reinforcement_learning",
+    "logging": {
+        "sender": "",
+        "recipient": "local",
+        "logging_path": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/BTK/progress_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_no_constraint_3_sample.log",
+        "result_folder": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/BTK/result_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_no_constraint_3_sample",
+        "job_name": "Pro-INVENT",
+        "job_id": "N/A"
+    },
+    "parameters": {
+        "actor": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/models/linkinvent.prior",
+        "critic": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/models/linkinvent.prior",
+        "warheads": [
+            "NC(=O)c1c(N)n(nc1-c1ccc(Oc2ccc(F)cc2F)cc1)[C@@H]1CCCN(C1)[100C](*)=O|CN[C@@H](C)C(=O)N[C@H](C(=O)N1Cc2cc([101O]*)ccc2C[C@H]1C(=O)N[C@@H]1CCCc2ccccc12)C(C)(C)C"
+        ],
+        "n_steps": 1,
+        "learning_rate": 0.0001,
+        "batch_size": 1000,
+        "randomize_warheads": true,
+        "learning_strategy": {
+            "name": "dap",
+            "parameters": {
+                "sigma": 120
+            }
+        },
+        "scoring_strategy": {
+            "name": "link_invent",
+            "diversity_filter": {
+                "bucket_size": 25,
+                "minscore": 0,
+                "minsimilarity": 0,
+                "name": "IdenticalMurckoScaffold"
+            },
+            "scoring_function": {
+                "name": "custom_sum",
+                "parallel": false,
+                "parameters": [
+                    {
+                        "weight": 1,
+                        "component_type": "linker_num_aromatic_rings",
+                        "name": "Linker Num Aromatic Rings",
+                        "specific_parameters": {
+                        "transformation": {
+                            "high": 1,
+                            "low": 0,
+                            "transformation_type": "step"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
