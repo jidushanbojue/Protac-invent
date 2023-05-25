@@ -1,0 +1,5 @@
+CC(=Cc1cc[101c]([101O]c2cc(-c3scnc3C)ccc2CNC(=O)C2CC(O)CN2C(=O)C(NC(=O)C2(F)CC2)C(C)(C)C)cc1)C[100C](=O)[100N]1CCN(c2cc(-c3ccccc3O)nnc2N)CC1
+Cc1ncsc1-c1ccc(CNC(=O)C2CC(O)CN2C(=O)C(NC(=O)C2(F)CC2)C(C)(C)C)c([101O][101CH2]C=Cc2ccc([100C](=O)[100N]3CCN(c4cc(-c5ccccc5O)nnc4N)CC3)cc2)c1
+Cc1ncsc1-c1ccc(CNC(=O)C2CC(O)CN2C(=O)C(NC(=O)C2(F)CC2)C(C)(C)C)c([101O][101CH2]C(=O)NC2CCc3c[100c]([100N]4CCN(c5cc(-c6ccccc6O)nnc5N)CC4)ccc32)c1
+Cc1ncsc1-c1ccc(CNC(=O)C2CC(O)CN2C(=O)C(NC(=O)C2(F)CC2)C(C)(C)C)c([101O][101CH2]CCOCC(=O)NC(C(N)=O)C(C)(C)[100CH2][100N]2CCN(c3cc(-c4ccccc4O)nnc3N)CC2)c1
+Cc1ncsc1-c1ccc(CNC(=O)C2CC(O)CN2C(=O)C(NC(=O)C2(F)CC2)C(C)(C)C)c([101O][101CH]2CCCN(CCCCOc3ccc(OC[100CH2][100N]4CCN(c5cc(-c6ccccc6O)nnc5N)CC4)cc3)CC2)c1

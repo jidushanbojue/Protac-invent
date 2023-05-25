@@ -1,0 +1,60 @@
+11
+     RDKit          2D
+
+  8  7  0  0  0  0  0  0  0  0999 V2000
+   -4.5553   -0.2480    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2359    0.4655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9583   -0.3205    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6388    0.3930    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6388   -0.3930    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9583    0.3205    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2359   -0.4655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5553    0.2480    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+M  END
+> <Smiles>
+CCOCCOCC
+
+> <Molecular Weight>
+118.176
+
+> <Exact Mass>
+118.099379688
+
+> <XLogP3>
+0.66
+
+> <Heavy Atom Count>
+8
+
+> <Ring Count>
+0
+
+> <Hydrogen Bond Acceptor Count>
+2
+
+> <Hydrogen Bond Donor Count>
+0
+
+> <Rotatable Bond Count>
+5
+
+> <Topological Polar Surface Area>
+18.46
+
+> <Molecular Formula>
+C6H14O2
+
+> <InChI>
+InChI=1S/C6H14O2/c1-3-7-5-6-8-4-2/h3-6H2,1-2H3
+
+> <InChI Key>
+LZDKZFUFMNSQCJ-UHFFFAOYSA-N
+
+$$$$
