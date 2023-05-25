@@ -1,0 +1,2281 @@
+ 
+ JobID: localhost-0-642d98d0
+ BatchMin V11.6    Build  116013  Starting Time 05-Apr-2023 23:50:42
+ MacroModel. Copyright Schrodinger, LLC.
+ All rights reserved.
+
+ Input filename:  /data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/BTK/process_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3/rearranged_h.mae
+ Output filename: /data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/BTK/process_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3/rearranged_h_mini.mae
+ Atom-type file: /data/Programs/Schrodinger_2017/mmshare-v3.8/bin/Linux-x86_64/../../data/atom.typ
+WARNING: BDCO arg5 is less than the electrostatic cutoff
+  This value has been increased to the electrostatic cutoff value: ********
+WARNING: BDCO arg6 is less than the electrostatic cutoff
+  This value has been increased to the electrostatic cutoff value: ********
+ Force field: /data/Programs/Schrodinger_2017/macromodel-v11.6/bin/Linux-x86_64/../../data/OPLS_2005.fld
+ Read   176 atoms. Structure name, if any, appears on next line: 
+ 0
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  185    2    0
+   Numbers of high, medium and low quality bend parameters    =  344    2    1
+   Numbers of high, medium and low quality torsion parameters =  521   10    1
+   Interactions examined:       1066 of       1066 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      187   constrained=        0
+         Bend total=      347   constrained=        0        linear=        0
+      Torsion total=      575   constrained=        0  out-of-plane=       43
+    Nonbonded total=    14871      H-bonded=        0      ordinary=    14871
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14871
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Solvent file: /data/Programs/Schrodinger_2017/macromodel-v11.6/bin/Linux-x86_64/../../data/water.slv
+    Block specifies desired NFIELD -- accepting block
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf    1 E =     247.014 (  4.584) kJ/mol
+ Read   183 atoms. Structure name, if any, appears on next line: 
+ 1
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  191    2    0
+   Numbers of high, medium and low quality bend parameters    =  352    2    1
+   Numbers of high, medium and low quality torsion parameters =  524   10    1
+   Interactions examined:       1083 of       1083 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      193   constrained=        0
+         Bend total=      355   constrained=        0        linear=        0
+      Torsion total=      581   constrained=        0  out-of-plane=       46
+    Nonbonded total=    16105      H-bonded=        0      ordinary=    16105
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    16105
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf    2 E =    1025.525 (  3.905) kJ/mol
+ Read   156 atoms. Structure name, if any, appears on next line: 
+ 2
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  164    1    0
+   Numbers of high, medium and low quality bend parameters    =  301    2    0
+   Numbers of high, medium and low quality torsion parameters =  455    6    2
+   Interactions examined:        931 of        931 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      165   constrained=        0
+         Bend total=      303   constrained=        0        linear=        0
+      Torsion total=      503   constrained=        0  out-of-plane=       40
+    Nonbonded total=    11625      H-bonded=        0      ordinary=    11625
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11625
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf    3 E =     320.158 (  1.599) kJ/mol
+ Read   163 atoms. Structure name, if any, appears on next line: 
+ 3
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  170    2    0
+   Numbers of high, medium and low quality bend parameters    =  316    2    0
+   Numbers of high, medium and low quality torsion parameters =  478   10    2
+   Interactions examined:        980 of        980 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      172   constrained=        0
+         Bend total=      318   constrained=        0        linear=        0
+      Torsion total=      530   constrained=        0  out-of-plane=       40
+    Nonbonded total=    12713      H-bonded=        0      ordinary=    12713
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12713
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf    4 E =     209.217 (  2.048) kJ/mol
+ Read   159 atoms. Structure name, if any, appears on next line: 
+ 4
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  166    2    0
+   Numbers of high, medium and low quality bend parameters    =  300    1    0
+   Numbers of high, medium and low quality torsion parameters =  440    6    2
+   Interactions examined:        917 of        917 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      168   constrained=        0
+         Bend total=      301   constrained=        0        linear=        0
+      Torsion total=      496   constrained=        0  out-of-plane=       48
+    Nonbonded total=    12092      H-bonded=        0      ordinary=    12092
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12092
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf    5 E =     -73.355 (  1.089) kJ/mol
+ Read   170 atoms. Structure name, if any, appears on next line: 
+ 5
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  177    2    0
+   Numbers of high, medium and low quality bend parameters    =  323    2    0
+   Numbers of high, medium and low quality torsion parameters =  478   10    2
+   Interactions examined:        994 of        994 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      179   constrained=        0
+         Bend total=      325   constrained=        0        linear=        0
+      Torsion total=      536   constrained=        0  out-of-plane=       46
+    Nonbonded total=    13861      H-bonded=        0      ordinary=    13861
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13861
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf    6 E =     124.145 ( 10.286) kJ/mol
+ Read   157 atoms. Structure name, if any, appears on next line: 
+ 6
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  165    1    0
+   Numbers of high, medium and low quality bend parameters    =  298    1    0
+   Numbers of high, medium and low quality torsion parameters =  441    7    2
+   Interactions examined:        915 of        915 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      166   constrained=        0
+         Bend total=      299   constrained=        0        linear=        0
+      Torsion total=      495   constrained=        0  out-of-plane=       45
+    Nonbonded total=    11784      H-bonded=        0      ordinary=    11784
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11784
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ENMIN: WARNING: Energy increase at iteration   130; BUFFER-> 0.7500; ALL_NB=.T.
+ ENMIN: Restoring coords and E from Iter=          120
+ Iterations =         200  out of          200
+ Conf    7 E =    -219.653 (  7.258) kJ/mol
+ Read   174 atoms. Structure name, if any, appears on next line: 
+ 7
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  182    2    0
+   Numbers of high, medium and low quality bend parameters    =  337    2    0
+   Numbers of high, medium and low quality torsion parameters =  503   10    2
+   Interactions examined:       1038 of       1038 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      184   constrained=        0
+         Bend total=      339   constrained=        0        linear=        0
+      Torsion total=      560   constrained=        0  out-of-plane=       45
+    Nonbonded total=    14530      H-bonded=        0      ordinary=    14530
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14530
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf    8 E =     -49.374 (  6.500) kJ/mol
+ Read   162 atoms. Structure name, if any, appears on next line: 
+ 8
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  168    2    0
+   Numbers of high, medium and low quality bend parameters    =  310    2    0
+   Numbers of high, medium and low quality torsion parameters =  461    9    2
+   Interactions examined:        954 of        954 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      170   constrained=        0
+         Bend total=      312   constrained=        0        linear=        0
+      Torsion total=      512   constrained=        0  out-of-plane=       40
+    Nonbonded total=    12559      H-bonded=        0      ordinary=    12559
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12559
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf    9 E =      93.766 (  3.202) kJ/mol
+ Read   165 atoms. Structure name, if any, appears on next line: 
+ 9
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  172    2    0
+   Numbers of high, medium and low quality bend parameters    =  319    2    0
+   Numbers of high, medium and low quality torsion parameters =  478   10    2
+   Interactions examined:        985 of        985 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      174   constrained=        0
+         Bend total=      321   constrained=        0        linear=        0
+      Torsion total=      530   constrained=        0  out-of-plane=       40
+    Nonbonded total=    13035      H-bonded=        0      ordinary=    13035
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13035
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   10 E =     480.992 (  3.519) kJ/mol
+ Read   151 atoms. Structure name, if any, appears on next line: 
+ 10
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  160    0    0
+   Numbers of high, medium and low quality bend parameters    =  287    2    0
+   Numbers of high, medium and low quality torsion parameters =  424    7    2
+   Interactions examined:        882 of        882 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      160   constrained=        0
+         Bend total=      289   constrained=        0        linear=        0
+      Torsion total=      477   constrained=        0  out-of-plane=       44
+    Nonbonded total=    10878      H-bonded=        0      ordinary=    10878
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    10878
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   11 E =     344.995 (  2.013) kJ/mol
+ Read   174 atoms. Structure name, if any, appears on next line: 
+ 11
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  180    2    0
+   Numbers of high, medium and low quality bend parameters    =  334    2    0
+   Numbers of high, medium and low quality torsion parameters =  496   10    2
+   Interactions examined:       1026 of       1026 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      182   constrained=        0
+         Bend total=      336   constrained=        0        linear=        0
+      Torsion total=      548   constrained=        0  out-of-plane=       40
+    Nonbonded total=    14533      H-bonded=        0      ordinary=    14533
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14533
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   12 E =     -10.246 (  3.400) kJ/mol
+ Read   166 atoms. Structure name, if any, appears on next line: 
+ 12
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  174    2    0
+   Numbers of high, medium and low quality bend parameters    =  320    2    0
+   Numbers of high, medium and low quality torsion parameters =  472   10    2
+   Interactions examined:        982 of        982 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      176   constrained=        0
+         Bend total=      322   constrained=        0        linear=        0
+      Torsion total=      529   constrained=        0  out-of-plane=       45
+    Nonbonded total=    13201      H-bonded=        0      ordinary=    13201
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13201
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   13 E =     -62.057 (  5.905) kJ/mol
+ Read   164 atoms. Structure name, if any, appears on next line: 
+ 13
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  171    2    0
+   Numbers of high, medium and low quality bend parameters    =  312    2    0
+   Numbers of high, medium and low quality torsion parameters =  462    9    2
+   Interactions examined:        960 of        960 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      173   constrained=        0
+         Bend total=      314   constrained=        0        linear=        0
+      Torsion total=      517   constrained=        0  out-of-plane=       44
+    Nonbonded total=    12879      H-bonded=        0      ordinary=    12879
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12879
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   14 E =    -684.294 (  3.383) kJ/mol
+ Read   155 atoms. Structure name, if any, appears on next line: 
+ 14
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  163    1    0
+   Numbers of high, medium and low quality bend parameters    =  295    1    0
+   Numbers of high, medium and low quality torsion parameters =  436    7    2
+   Interactions examined:        905 of        905 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      164   constrained=        0
+         Bend total=      296   constrained=        0        linear=        0
+      Torsion total=      489   constrained=        0  out-of-plane=       44
+    Nonbonded total=    11477      H-bonded=        0      ordinary=    11477
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11477
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   15 E =    -549.020 (  0.949) kJ/mol
+ Read   157 atoms. Structure name, if any, appears on next line: 
+ 15
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  165    1    0
+   Numbers of high, medium and low quality bend parameters    =  304    2    0
+   Numbers of high, medium and low quality torsion parameters =  459    7    2
+   Interactions examined:        940 of        940 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      166   constrained=        0
+         Bend total=      306   constrained=        0        linear=        0
+      Torsion total=      508   constrained=        0  out-of-plane=       40
+    Nonbonded total=    11776      H-bonded=        0      ordinary=    11776
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11776
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   16 E =    1043.142 (  1.969) kJ/mol
+ Read   163 atoms. Structure name, if any, appears on next line: 
+ 16
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  170    2    0
+   Numbers of high, medium and low quality bend parameters    =  316    2    0
+   Numbers of high, medium and low quality torsion parameters =  476    9    2
+   Interactions examined:        977 of        977 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      172   constrained=        0
+         Bend total=      318   constrained=        0        linear=        0
+      Torsion total=      527   constrained=        0  out-of-plane=       40
+    Nonbonded total=    12716      H-bonded=        0      ordinary=    12716
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12716
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   17 E =     683.673 (  6.150) kJ/mol
+ Read   179 atoms. Structure name, if any, appears on next line: 
+ 17
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  186    2    0
+   Numbers of high, medium and low quality bend parameters    =  341    2    1
+   Numbers of high, medium and low quality torsion parameters =  507   10    1
+   Interactions examined:       1050 of       1050 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      188   constrained=        0
+         Bend total=      344   constrained=        0        linear=        0
+      Torsion total=      562   constrained=        0  out-of-plane=       44
+    Nonbonded total=    15399      H-bonded=        0      ordinary=    15399
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    15399
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   18 E =    -178.404 (  5.882) kJ/mol
+ Read   155 atoms. Structure name, if any, appears on next line: 
+ 18
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  163    1    0
+   Numbers of high, medium and low quality bend parameters    =  295    1    0
+   Numbers of high, medium and low quality torsion parameters =  438    7    2
+   Interactions examined:        907 of        907 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      164   constrained=        0
+         Bend total=      296   constrained=        0        linear=        0
+      Torsion total=      491   constrained=        0  out-of-plane=       44
+    Nonbonded total=    11475      H-bonded=        0      ordinary=    11475
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11475
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   19 E =     227.676 (  2.622) kJ/mol
+ Read   161 atoms. Structure name, if any, appears on next line: 
+ 19
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  168    2    0
+   Numbers of high, medium and low quality bend parameters    =  307    2    0
+   Numbers of high, medium and low quality torsion parameters =  456    7    2
+   Interactions examined:        944 of        944 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      170   constrained=        0
+         Bend total=      309   constrained=        0        linear=        0
+      Torsion total=      510   constrained=        0  out-of-plane=       45
+    Nonbonded total=    12401      H-bonded=        0      ordinary=    12401
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12401
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   20 E =     764.434 (  0.838) kJ/mol
+ Read   154 atoms. Structure name, if any, appears on next line: 
+ 20
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  162    1    0
+   Numbers of high, medium and low quality bend parameters    =  292    1    0
+   Numbers of high, medium and low quality torsion parameters =  432    7    2
+   Interactions examined:        897 of        897 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      163   constrained=        0
+         Bend total=      293   constrained=        0        linear=        0
+      Torsion total=      486   constrained=        0  out-of-plane=       45
+    Nonbonded total=    11325      H-bonded=        0      ordinary=    11325
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11325
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   21 E =    -164.172 (  2.692) kJ/mol
+ Read   155 atoms. Structure name, if any, appears on next line: 
+ 21
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  164    1    0
+   Numbers of high, medium and low quality bend parameters    =  298    1    0
+   Numbers of high, medium and low quality torsion parameters =  443    7    2
+   Interactions examined:        916 of        916 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      165   constrained=        0
+         Bend total=      299   constrained=        0        linear=        0
+      Torsion total=      497   constrained=        0  out-of-plane=       45
+    Nonbonded total=    11476      H-bonded=        0      ordinary=    11476
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11476
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   22 E =      90.544 (  0.441) kJ/mol
+ Read   168 atoms. Structure name, if any, appears on next line: 
+ 22
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  175    2    0
+   Numbers of high, medium and low quality bend parameters    =  325    2    0
+   Numbers of high, medium and low quality torsion parameters =  490   10    2
+   Interactions examined:       1006 of       1006 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      177   constrained=        0
+         Bend total=      327   constrained=        0        linear=        0
+      Torsion total=      542   constrained=        0  out-of-plane=       40
+    Nonbonded total=    13524      H-bonded=        0      ordinary=    13524
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13524
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   23 E =   20115.156 (  9.079) kJ/mol
+ Read   163 atoms. Structure name, if any, appears on next line: 
+ 23
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  170    2    0
+   Numbers of high, medium and low quality bend parameters    =  309    2    0
+   Numbers of high, medium and low quality torsion parameters =  455    8    2
+   Interactions examined:        948 of        948 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      172   constrained=        0
+         Bend total=      311   constrained=        0        linear=        0
+      Torsion total=      510   constrained=        0  out-of-plane=       45
+    Nonbonded total=    12722      H-bonded=        0      ordinary=    12722
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12722
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   24 E =    -194.428 (  5.636) kJ/mol
+ Read   170 atoms. Structure name, if any, appears on next line: 
+ 24
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  178    2    0
+   Numbers of high, medium and low quality bend parameters    =  334    2    0
+   Numbers of high, medium and low quality torsion parameters =  509   10    2
+   Interactions examined:       1037 of       1037 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      180   constrained=        0
+         Bend total=      336   constrained=        0        linear=        0
+      Torsion total=      561   constrained=        0  out-of-plane=       40
+    Nonbonded total=    13853      H-bonded=        0      ordinary=    13853
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13853
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   25 E =    -172.353 (  1.748) kJ/mol
+ Read   149 atoms. Structure name, if any, appears on next line: 
+ 25
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  158    0    0
+   Numbers of high, medium and low quality bend parameters    =  282    2    0
+   Numbers of high, medium and low quality torsion parameters =  415    7    2
+   Interactions examined:        866 of        866 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      158   constrained=        0
+         Bend total=      284   constrained=        0        linear=        0
+      Torsion total=      468   constrained=        0  out-of-plane=       44
+    Nonbonded total=    10586      H-bonded=        0      ordinary=    10586
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    10586
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   26 E =     578.703 (  2.603) kJ/mol
+ Read   174 atoms. Structure name, if any, appears on next line: 
+ 26
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  182    2    0
+   Numbers of high, medium and low quality bend parameters    =  337    2    0
+   Numbers of high, medium and low quality torsion parameters =  504   10    2
+   Interactions examined:       1039 of       1039 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      184   constrained=        0
+         Bend total=      339   constrained=        0        linear=        0
+      Torsion total=      561   constrained=        0  out-of-plane=       45
+    Nonbonded total=    14531      H-bonded=        0      ordinary=    14531
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14531
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   27 E =      42.469 (  4.782) kJ/mol
+ Read   170 atoms. Structure name, if any, appears on next line: 
+ 27
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  177    2    0
+   Numbers of high, medium and low quality bend parameters    =  326    2    0
+   Numbers of high, medium and low quality torsion parameters =  480   10    2
+   Interactions examined:        999 of        999 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      179   constrained=        0
+         Bend total=      328   constrained=        0        linear=        0
+      Torsion total=      535   constrained=        0  out-of-plane=       43
+    Nonbonded total=    13860      H-bonded=        0      ordinary=    13860
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13860
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   28 E =      48.403 (  9.062) kJ/mol
+ Read   157 atoms. Structure name, if any, appears on next line: 
+ 28
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  165    1    0
+   Numbers of high, medium and low quality bend parameters    =  298    1    0
+   Numbers of high, medium and low quality torsion parameters =  436    7    2
+   Interactions examined:        910 of        910 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      166   constrained=        0
+         Bend total=      299   constrained=        0        linear=        0
+      Torsion total=      490   constrained=        0  out-of-plane=       45
+    Nonbonded total=    11783      H-bonded=        0      ordinary=    11783
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11783
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   29 E =    -195.681 (  2.044) kJ/mol
+ Read   160 atoms. Structure name, if any, appears on next line: 
+ 29
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  167    2    0
+   Numbers of high, medium and low quality bend parameters    =  303    2    0
+   Numbers of high, medium and low quality torsion parameters =  449    5    2
+   Interactions examined:        930 of        930 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      169   constrained=        0
+         Bend total=      305   constrained=        0        linear=        0
+      Torsion total=      501   constrained=        0  out-of-plane=       45
+    Nonbonded total=    12246      H-bonded=        0      ordinary=    12246
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12246
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   30 E =     217.134 (  0.758) kJ/mol
+ Read   162 atoms. Structure name, if any, appears on next line: 
+ 30
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  170    2    0
+   Numbers of high, medium and low quality bend parameters    =  312    2    0
+   Numbers of high, medium and low quality torsion parameters =  464    9    2
+   Interactions examined:        961 of        961 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      172   constrained=        0
+         Bend total=      314   constrained=        0        linear=        0
+      Torsion total=      519   constrained=        0  out-of-plane=       44
+    Nonbonded total=    12560      H-bonded=        0      ordinary=    12560
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12560
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   31 E =     -26.623 (  1.593) kJ/mol
+ Read   163 atoms. Structure name, if any, appears on next line: 
+ 31
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  170    2    0
+   Numbers of high, medium and low quality bend parameters    =  309    2    0
+   Numbers of high, medium and low quality torsion parameters =  454    8    2
+   Interactions examined:        947 of        947 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      172   constrained=        0
+         Bend total=      311   constrained=        0        linear=        0
+      Torsion total=      509   constrained=        0  out-of-plane=       45
+    Nonbonded total=    12722      H-bonded=        0      ordinary=    12722
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12722
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   32 E =    -855.846 (  4.447) kJ/mol
+ Read   155 atoms. Structure name, if any, appears on next line: 
+ 32
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  163    1    0
+   Numbers of high, medium and low quality bend parameters    =  294    1    0
+   Numbers of high, medium and low quality torsion parameters =  432    7    2
+   Interactions examined:        900 of        900 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      164   constrained=        0
+         Bend total=      295   constrained=        0        linear=        0
+      Torsion total=      487   constrained=        0  out-of-plane=       46
+    Nonbonded total=    11478      H-bonded=        0      ordinary=    11478
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11478
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   33 E =     134.947 (  0.867) kJ/mol
+ Read   153 atoms. Structure name, if any, appears on next line: 
+ 33
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  162    0    0
+   Numbers of high, medium and low quality bend parameters    =  290    2    0
+   Numbers of high, medium and low quality torsion parameters =  429    7    2
+   Interactions examined:        892 of        892 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      162   constrained=        0
+         Bend total=      292   constrained=        0        linear=        0
+      Torsion total=      483   constrained=        0  out-of-plane=       45
+    Nonbonded total=    11174      H-bonded=        0      ordinary=    11174
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11174
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   34 E =     618.959 (  0.994) kJ/mol
+ Read   166 atoms. Structure name, if any, appears on next line: 
+ 34
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  173    2    0
+   Numbers of high, medium and low quality bend parameters    =  322    2    0
+   Numbers of high, medium and low quality torsion parameters =  483   10    2
+   Interactions examined:        994 of        994 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      175   constrained=        0
+         Bend total=      324   constrained=        0        linear=        0
+      Torsion total=      535   constrained=        0  out-of-plane=       40
+    Nonbonded total=    13198      H-bonded=        0      ordinary=    13198
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13198
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   35 E =     129.378 (  5.392) kJ/mol
+ Read   169 atoms. Structure name, if any, appears on next line: 
+ 35
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  177    2    0
+   Numbers of high, medium and low quality bend parameters    =  331    2    0
+   Numbers of high, medium and low quality torsion parameters =  501   10    2
+   Interactions examined:       1025 of       1025 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      179   constrained=        0
+         Bend total=      333   constrained=        0        linear=        0
+      Torsion total=      553   constrained=        0  out-of-plane=       40
+    Nonbonded total=    13689      H-bonded=        0      ordinary=    13689
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13689
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   36 E =     160.128 (  0.857) kJ/mol
+ Read   153 atoms. Structure name, if any, appears on next line: 
+ 36
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  161    0    0
+   Numbers of high, medium and low quality bend parameters    =  289    2    0
+   Numbers of high, medium and low quality torsion parameters =  429    7    2
+   Interactions examined:        890 of        890 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      161   constrained=        0
+         Bend total=      291   constrained=        0        linear=        0
+      Torsion total=      481   constrained=        0  out-of-plane=       43
+    Nonbonded total=    11176      H-bonded=        0      ordinary=    11176
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11176
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   37 E =     -86.957 (  1.462) kJ/mol
+ Read   165 atoms. Structure name, if any, appears on next line: 
+ 37
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  173    2    0
+   Numbers of high, medium and low quality bend parameters    =  319    2    0
+   Numbers of high, medium and low quality torsion parameters =  477   10    2
+   Interactions examined:        985 of        985 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      175   constrained=        0
+         Bend total=      321   constrained=        0        linear=        0
+      Torsion total=      534   constrained=        0  out-of-plane=       45
+    Nonbonded total=    13037      H-bonded=        0      ordinary=    13037
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13037
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   38 E =     553.602 (  1.751) kJ/mol
+ Read   162 atoms. Structure name, if any, appears on next line: 
+ 38
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  169    2    0
+   Numbers of high, medium and low quality bend parameters    =  309    2    0
+   Numbers of high, medium and low quality torsion parameters =  457    9    2
+   Interactions examined:        950 of        950 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      171   constrained=        0
+         Bend total=      311   constrained=        0        linear=        0
+      Torsion total=      511   constrained=        0  out-of-plane=       43
+    Nonbonded total=    12559      H-bonded=        0      ordinary=    12559
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12559
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   39 E =      88.643 (  0.755) kJ/mol
+ Read   163 atoms. Structure name, if any, appears on next line: 
+ 39
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  171    2    0
+   Numbers of high, medium and low quality bend parameters    =  314    2    0
+   Numbers of high, medium and low quality torsion parameters =  465    9    2
+   Interactions examined:        965 of        965 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      173   constrained=        0
+         Bend total=      316   constrained=        0        linear=        0
+      Torsion total=      521   constrained=        0  out-of-plane=       45
+    Nonbonded total=    12719      H-bonded=        0      ordinary=    12719
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12719
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   40 E =     157.061 (  4.103) kJ/mol
+ Read   159 atoms. Structure name, if any, appears on next line: 
+ 40
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  166    2    0
+   Numbers of high, medium and low quality bend parameters    =  303    2    0
+   Numbers of high, medium and low quality torsion parameters =  454    5    2
+   Interactions examined:        934 of        934 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      168   constrained=        0
+         Bend total=      305   constrained=        0        linear=        0
+      Torsion total=      504   constrained=        0  out-of-plane=       43
+    Nonbonded total=    12088      H-bonded=        0      ordinary=    12088
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12088
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   41 E =     -29.054 (  3.152) kJ/mol
+ Read   159 atoms. Structure name, if any, appears on next line: 
+ 41
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  166    2    0
+   Numbers of high, medium and low quality bend parameters    =  302    1    0
+   Numbers of high, medium and low quality torsion parameters =  446    6    2
+   Interactions examined:        925 of        925 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      168   constrained=        0
+         Bend total=      303   constrained=        0        linear=        0
+      Torsion total=      501   constrained=        0  out-of-plane=       47
+    Nonbonded total=    12092      H-bonded=        0      ordinary=    12092
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12092
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   42 E =      96.567 (  2.936) kJ/mol
+ Read   158 atoms. Structure name, if any, appears on next line: 
+ 42
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  165    2    0
+   Numbers of high, medium and low quality bend parameters    =  301    1    0
+   Numbers of high, medium and low quality torsion parameters =  447    6    2
+   Interactions examined:        924 of        924 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      167   constrained=        0
+         Bend total=      302   constrained=        0        linear=        0
+      Torsion total=      499   constrained=        0  out-of-plane=       44
+    Nonbonded total=    11934      H-bonded=        0      ordinary=    11934
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11934
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   43 E =      50.111 (  2.459) kJ/mol
+ Read   174 atoms. Structure name, if any, appears on next line: 
+ 43
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  182    2    0
+   Numbers of high, medium and low quality bend parameters    =  336    2    0
+   Numbers of high, medium and low quality torsion parameters =  500   10    2
+   Interactions examined:       1034 of       1034 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      184   constrained=        0
+         Bend total=      338   constrained=        0        linear=        0
+      Torsion total=      556   constrained=        0  out-of-plane=       44
+    Nonbonded total=    14529      H-bonded=        0      ordinary=    14529
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14529
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   44 E =   25246.539 (  9.093) kJ/mol
+ Read   158 atoms. Structure name, if any, appears on next line: 
+ 44
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  166    2    0
+   Numbers of high, medium and low quality bend parameters    =  303    2    0
+   Numbers of high, medium and low quality torsion parameters =  451    5    2
+   Interactions examined:        931 of        931 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      168   constrained=        0
+         Bend total=      305   constrained=        0        linear=        0
+      Torsion total=      503   constrained=        0  out-of-plane=       45
+    Nonbonded total=    11935      H-bonded=        0      ordinary=    11935
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11935
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   45 E =     310.926 (  0.295) kJ/mol
+ Read   179 atoms. Structure name, if any, appears on next line: 
+ 45
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  186    2    0
+   Numbers of high, medium and low quality bend parameters    =  338    2    1
+   Numbers of high, medium and low quality torsion parameters =  496   10    1
+   Interactions examined:       1036 of       1036 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      188   constrained=        0
+         Bend total=      341   constrained=        0        linear=        0
+      Torsion total=      553   constrained=        0  out-of-plane=       46
+    Nonbonded total=    15402      H-bonded=        0      ordinary=    15402
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    15402
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   46 E =    -854.254 (  1.634) kJ/mol
+ Read   161 atoms. Structure name, if any, appears on next line: 
+ 46
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  168    2    0
+   Numbers of high, medium and low quality bend parameters    =  306    2    0
+   Numbers of high, medium and low quality torsion parameters =  453    5    2
+   Interactions examined:        938 of        938 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      170   constrained=        0
+         Bend total=      308   constrained=        0        linear=        0
+      Torsion total=      504   constrained=        0  out-of-plane=       44
+    Nonbonded total=    12404      H-bonded=        0      ordinary=    12404
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12404
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   47 E =     -88.932 (  2.145) kJ/mol
+ Read   166 atoms. Structure name, if any, appears on next line: 
+ 47
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  174    2    0
+   Numbers of high, medium and low quality bend parameters    =  320    2    0
+   Numbers of high, medium and low quality torsion parameters =  473   10    2
+   Interactions examined:        983 of        983 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      176   constrained=        0
+         Bend total=      322   constrained=        0        linear=        0
+      Torsion total=      530   constrained=        0  out-of-plane=       45
+    Nonbonded total=    13202      H-bonded=        0      ordinary=    13202
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13202
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   48 E =   15513.548 ( 19.261) kJ/mol
+ Read   160 atoms. Structure name, if any, appears on next line: 
+ 48
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  166    2    0
+   Numbers of high, medium and low quality bend parameters    =  304    2    0
+   Numbers of high, medium and low quality torsion parameters =  451    5    2
+   Interactions examined:        932 of        932 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      168   constrained=        0
+         Bend total=      306   constrained=        0        linear=        0
+      Torsion total=      500   constrained=        0  out-of-plane=       42
+    Nonbonded total=    12246      H-bonded=        0      ordinary=    12246
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12246
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   49 E =      48.521 (  5.234) kJ/mol
+ Read   170 atoms. Structure name, if any, appears on next line: 
+ 49
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  177    2    0
+   Numbers of high, medium and low quality bend parameters    =  328    2    0
+   Numbers of high, medium and low quality torsion parameters =  488   10    2
+   Interactions examined:       1009 of       1009 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      179   constrained=        0
+         Bend total=      330   constrained=        0        linear=        0
+      Torsion total=      542   constrained=        0  out-of-plane=       42
+    Nonbonded total=    13859      H-bonded=        0      ordinary=    13859
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13859
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   50 E =    1135.367 (  1.636) kJ/mol
+ Read   162 atoms. Structure name, if any, appears on next line: 
+ 50
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  168    2    0
+   Numbers of high, medium and low quality bend parameters    =  310    2    0
+   Numbers of high, medium and low quality torsion parameters =  460    9    2
+   Interactions examined:        953 of        953 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      170   constrained=        0
+         Bend total=      312   constrained=        0        linear=        0
+      Torsion total=      511   constrained=        0  out-of-plane=       40
+    Nonbonded total=    12561      H-bonded=        0      ordinary=    12561
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12561
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   51 E =    -200.424 ( 19.416) kJ/mol
+ Read   171 atoms. Structure name, if any, appears on next line: 
+ 51
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  179    2    0
+   Numbers of high, medium and low quality bend parameters    =  330    2    0
+   Numbers of high, medium and low quality torsion parameters =  489   10    2
+   Interactions examined:       1014 of       1014 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      181   constrained=        0
+         Bend total=      332   constrained=        0        linear=        0
+      Torsion total=      545   constrained=        0  out-of-plane=       44
+    Nonbonded total=    14026      H-bonded=        0      ordinary=    14026
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14026
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   52 E =    -313.319 (  9.098) kJ/mol
+ Read   166 atoms. Structure name, if any, appears on next line: 
+ 52
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  174    2    0
+   Numbers of high, medium and low quality bend parameters    =  321    2    0
+   Numbers of high, medium and low quality torsion parameters =  479   10    2
+   Interactions examined:        990 of        990 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      176   constrained=        0
+         Bend total=      323   constrained=        0        linear=        0
+      Torsion total=      534   constrained=        0  out-of-plane=       43
+    Nonbonded total=    13199      H-bonded=        0      ordinary=    13199
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13199
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   53 E =     301.649 (  3.756) kJ/mol
+ Read   157 atoms. Structure name, if any, appears on next line: 
+ 53
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  165    1    0
+   Numbers of high, medium and low quality bend parameters    =  297    1    0
+   Numbers of high, medium and low quality torsion parameters =  431    7    2
+   Interactions examined:        904 of        904 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      166   constrained=        0
+         Bend total=      298   constrained=        0        linear=        0
+      Torsion total=      484   constrained=        0  out-of-plane=       44
+    Nonbonded total=    11782      H-bonded=        0      ordinary=    11782
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11782
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   54 E =     624.167 (  2.692) kJ/mol
+ Read   177 atoms. Structure name, if any, appears on next line: 
+ 54
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  185    2    0
+   Numbers of high, medium and low quality bend parameters    =  339    2    0
+   Numbers of high, medium and low quality torsion parameters =  500   10    2
+   Interactions examined:       1040 of       1040 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      187   constrained=        0
+         Bend total=      341   constrained=        0        linear=        0
+      Torsion total=      559   constrained=        0  out-of-plane=       47
+    Nonbonded total=    15051      H-bonded=        0      ordinary=    15051
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    15051
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   55 E =    -540.395 (  9.289) kJ/mol
+ Read   157 atoms. Structure name, if any, appears on next line: 
+ 55
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  165    1    0
+   Numbers of high, medium and low quality bend parameters    =  298    1    0
+   Numbers of high, medium and low quality torsion parameters =  436    7    2
+   Interactions examined:        910 of        910 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      166   constrained=        0
+         Bend total=      299   constrained=        0        linear=        0
+      Torsion total=      490   constrained=        0  out-of-plane=       45
+    Nonbonded total=    11781      H-bonded=        0      ordinary=    11781
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11781
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   56 E =     490.560 (  0.735) kJ/mol
+ Read   165 atoms. Structure name, if any, appears on next line: 
+ 56
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  172    2    0
+   Numbers of high, medium and low quality bend parameters    =  319    2    0
+   Numbers of high, medium and low quality torsion parameters =  481   10    2
+   Interactions examined:        988 of        988 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      174   constrained=        0
+         Bend total=      321   constrained=        0        linear=        0
+      Torsion total=      533   constrained=        0  out-of-plane=       40
+    Nonbonded total=    13035      H-bonded=        0      ordinary=    13035
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13035
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   57 E =     -16.520 (  4.980) kJ/mol
+ Read   158 atoms. Structure name, if any, appears on next line: 
+ 57
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  166    2    0
+   Numbers of high, medium and low quality bend parameters    =  304    2    0
+   Numbers of high, medium and low quality torsion parameters =  456    5    2
+   Interactions examined:        937 of        937 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      168   constrained=        0
+         Bend total=      306   constrained=        0        linear=        0
+      Torsion total=      506   constrained=        0  out-of-plane=       43
+    Nonbonded total=    11935      H-bonded=        0      ordinary=    11935
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11935
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   58 E =     155.324 (  3.033) kJ/mol
+ Read   178 atoms. Structure name, if any, appears on next line: 
+ 58
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  185    2    0
+   Numbers of high, medium and low quality bend parameters    =  339    2    1
+   Numbers of high, medium and low quality torsion parameters =  502   10    1
+   Interactions examined:       1042 of       1042 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      187   constrained=        0
+         Bend total=      342   constrained=        0        linear=        0
+      Torsion total=      558   constrained=        0  out-of-plane=       45
+    Nonbonded total=    15224      H-bonded=        0      ordinary=    15224
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    15224
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   59 E =      43.781 (  2.239) kJ/mol
+ Read   164 atoms. Structure name, if any, appears on next line: 
+ 59
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  171    2    0
+   Numbers of high, medium and low quality bend parameters    =  309    2    0
+   Numbers of high, medium and low quality torsion parameters =  456    9    2
+   Interactions examined:        951 of        951 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      173   constrained=        0
+         Bend total=      311   constrained=        0        linear=        0
+      Torsion total=      514   constrained=        0  out-of-plane=       47
+    Nonbonded total=    12882      H-bonded=        0      ordinary=    12882
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12882
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   60 E =    -381.430 (  1.764) kJ/mol
+ Read   161 atoms. Structure name, if any, appears on next line: 
+ 60
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  169    2    0
+   Numbers of high, medium and low quality bend parameters    =  309    2    0
+   Numbers of high, medium and low quality torsion parameters =  457    9    2
+   Interactions examined:        950 of        950 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      171   constrained=        0
+         Bend total=      311   constrained=        0        linear=        0
+      Torsion total=      513   constrained=        0  out-of-plane=       45
+    Nonbonded total=    12401      H-bonded=        0      ordinary=    12401
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12401
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   61 E =     -25.906 (  0.830) kJ/mol
+ Read   153 atoms. Structure name, if any, appears on next line: 
+ 61
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  162    0    0
+   Numbers of high, medium and low quality bend parameters    =  289    2    0
+   Numbers of high, medium and low quality torsion parameters =  426    7    2
+   Interactions examined:        888 of        888 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      162   constrained=        0
+         Bend total=      291   constrained=        0        linear=        0
+      Torsion total=      479   constrained=        0  out-of-plane=       44
+    Nonbonded total=    11175      H-bonded=        0      ordinary=    11175
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11175
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   62 E =     548.257 (  0.760) kJ/mol
+ Read   165 atoms. Structure name, if any, appears on next line: 
+ 62
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  172    2    0
+   Numbers of high, medium and low quality bend parameters    =  319    2    0
+   Numbers of high, medium and low quality torsion parameters =  478   10    2
+   Interactions examined:        985 of        985 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      174   constrained=        0
+         Bend total=      321   constrained=        0        linear=        0
+      Torsion total=      530   constrained=        0  out-of-plane=       40
+    Nonbonded total=    13035      H-bonded=        0      ordinary=    13035
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13035
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   63 E =     150.400 (  1.357) kJ/mol
+ Read   174 atoms. Structure name, if any, appears on next line: 
+ 63
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  182    2    0
+   Numbers of high, medium and low quality bend parameters    =  334    2    0
+   Numbers of high, medium and low quality torsion parameters =  498   10    2
+   Interactions examined:       1030 of       1030 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      184   constrained=        0
+         Bend total=      336   constrained=        0        linear=        0
+      Torsion total=      558   constrained=        0  out-of-plane=       48
+    Nonbonded total=    14531      H-bonded=        0      ordinary=    14531
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14531
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   64 E =     367.003 (  6.201) kJ/mol
+ Read   159 atoms. Structure name, if any, appears on next line: 
+ 64
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  166    2    0
+   Numbers of high, medium and low quality bend parameters    =  303    2    0
+   Numbers of high, medium and low quality torsion parameters =  450    5    2
+   Interactions examined:        930 of        930 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      168   constrained=        0
+         Bend total=      305   constrained=        0        linear=        0
+      Torsion total=      500   constrained=        0  out-of-plane=       43
+    Nonbonded total=    12090      H-bonded=        0      ordinary=    12090
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12090
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   65 E =    -168.118 (  0.854) kJ/mol
+ Read   153 atoms. Structure name, if any, appears on next line: 
+ 65
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  161    0    0
+   Numbers of high, medium and low quality bend parameters    =  292    2    0
+   Numbers of high, medium and low quality torsion parameters =  436    7    2
+   Interactions examined:        900 of        900 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      161   constrained=        0
+         Bend total=      294   constrained=        0        linear=        0
+      Torsion total=      485   constrained=        0  out-of-plane=       40
+    Nonbonded total=    11173      H-bonded=        0      ordinary=    11173
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11173
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   66 E =     541.872 (  1.126) kJ/mol
+ Read   161 atoms. Structure name, if any, appears on next line: 
+ 66
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  167    2    0
+   Numbers of high, medium and low quality bend parameters    =  307    2    0
+   Numbers of high, medium and low quality torsion parameters =  459    8    2
+   Interactions examined:        947 of        947 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      169   constrained=        0
+         Bend total=      309   constrained=        0        linear=        0
+      Torsion total=      510   constrained=        0  out-of-plane=       41
+    Nonbonded total=    12402      H-bonded=        0      ordinary=    12402
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12402
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   67 E =      99.259 (  1.511) kJ/mol
+ Read   181 atoms. Structure name, if any, appears on next line: 
+ 67
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  189    2    0
+   Numbers of high, medium and low quality bend parameters    =  354    2    1
+   Numbers of high, medium and low quality torsion parameters =  542   10    1
+   Interactions examined:       1101 of       1101 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      191   constrained=        0
+         Bend total=      357   constrained=        0        linear=        0
+      Torsion total=      593   constrained=        0  out-of-plane=       40
+    Nonbonded total=    15745      H-bonded=        0      ordinary=    15745
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    15745
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   68 E =    -210.964 (  1.070) kJ/mol
+ Read   153 atoms. Structure name, if any, appears on next line: 
+ 68
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  162    0    0
+   Numbers of high, medium and low quality bend parameters    =  291    2    0
+   Numbers of high, medium and low quality torsion parameters =  433    7    2
+   Interactions examined:        897 of        897 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      162   constrained=        0
+         Bend total=      293   constrained=        0        linear=        0
+      Torsion total=      485   constrained=        0  out-of-plane=       43
+    Nonbonded total=    11173      H-bonded=        0      ordinary=    11173
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11173
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   69 E =     597.888 (  5.172) kJ/mol
+ Read   168 atoms. Structure name, if any, appears on next line: 
+ 69
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  175    2    0
+   Numbers of high, medium and low quality bend parameters    =  325    2    0
+   Numbers of high, medium and low quality torsion parameters =  485   10    2
+   Interactions examined:       1001 of       1001 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      177   constrained=        0
+         Bend total=      327   constrained=        0        linear=        0
+      Torsion total=      537   constrained=        0  out-of-plane=       40
+    Nonbonded total=    13526      H-bonded=        0      ordinary=    13526
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13526
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   70 E =     149.933 (  4.266) kJ/mol
+ Read   159 atoms. Structure name, if any, appears on next line: 
+ 70
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  167    2    0
+   Numbers of high, medium and low quality bend parameters    =  307    2    0
+   Numbers of high, medium and low quality torsion parameters =  458    7    2
+   Interactions examined:        945 of        945 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      169   constrained=        0
+         Bend total=      309   constrained=        0        linear=        0
+      Torsion total=      512   constrained=        0  out-of-plane=       45
+    Nonbonded total=    12088      H-bonded=        0      ordinary=    12088
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12088
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   71 E =    1080.468 (  3.098) kJ/mol
+ Read   167 atoms. Structure name, if any, appears on next line: 
+ 71
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  174    2    0
+   Numbers of high, medium and low quality bend parameters    =  322    2    0
+   Numbers of high, medium and low quality torsion parameters =  478   10    2
+   Interactions examined:        990 of        990 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      176   constrained=        0
+         Bend total=      324   constrained=        0        linear=        0
+      Torsion total=      532   constrained=        0  out-of-plane=       42
+    Nonbonded total=    13363      H-bonded=        0      ordinary=    13363
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13363
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   72 E =     129.696 (  2.728) kJ/mol
+ Read   162 atoms. Structure name, if any, appears on next line: 
+ 72
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  169    2    0
+   Numbers of high, medium and low quality bend parameters    =  313    2    0
+   Numbers of high, medium and low quality torsion parameters =  466    9    2
+   Interactions examined:        963 of        963 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      171   constrained=        0
+         Bend total=      315   constrained=        0        linear=        0
+      Torsion total=      517   constrained=        0  out-of-plane=       40
+    Nonbonded total=    12557      H-bonded=        0      ordinary=    12557
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12557
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   73 E =     -20.296 (  1.708) kJ/mol
+ Read   171 atoms. Structure name, if any, appears on next line: 
+ 73
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  180    2    0
+   Numbers of high, medium and low quality bend parameters    =  340    2    0
+   Numbers of high, medium and low quality torsion parameters =  525   10    2
+   Interactions examined:       1061 of       1061 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      182   constrained=        0
+         Bend total=      342   constrained=        0        linear=        0
+      Torsion total=      577   constrained=        0  out-of-plane=       40
+    Nonbonded total=    14016      H-bonded=        0      ordinary=    14016
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14016
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   74 E =     404.373 (  5.348) kJ/mol
+ Read   157 atoms. Structure name, if any, appears on next line: 
+ 74
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  165    1    0
+   Numbers of high, medium and low quality bend parameters    =  299    1    0
+   Numbers of high, medium and low quality torsion parameters =  441    7    2
+   Interactions examined:        916 of        916 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      166   constrained=        0
+         Bend total=      300   constrained=        0        linear=        0
+      Torsion total=      496   constrained=        0  out-of-plane=       46
+    Nonbonded total=    11782      H-bonded=        0      ordinary=    11782
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11782
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   75 E =     199.825 (  7.823) kJ/mol
+ Read   162 atoms. Structure name, if any, appears on next line: 
+ 75
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  169    2    0
+   Numbers of high, medium and low quality bend parameters    =  313    2    0
+   Numbers of high, medium and low quality torsion parameters =  466    9    2
+   Interactions examined:        963 of        963 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      171   constrained=        0
+         Bend total=      315   constrained=        0        linear=        0
+      Torsion total=      517   constrained=        0  out-of-plane=       40
+    Nonbonded total=    12557      H-bonded=        0      ordinary=    12557
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12557
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   76 E =      34.524 (  1.122) kJ/mol
+ Read   164 atoms. Structure name, if any, appears on next line: 
+ 76
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  171    2    0
+   Numbers of high, medium and low quality bend parameters    =  313    2    0
+   Numbers of high, medium and low quality torsion parameters =  463    9    2
+   Interactions examined:        962 of        962 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      173   constrained=        0
+         Bend total=      315   constrained=        0        linear=        0
+      Torsion total=      519   constrained=        0  out-of-plane=       45
+    Nonbonded total=    12878      H-bonded=        0      ordinary=    12878
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12878
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   77 E =     672.924 (  0.822) kJ/mol
+ Read   162 atoms. Structure name, if any, appears on next line: 
+ 77
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  169    2    0
+   Numbers of high, medium and low quality bend parameters    =  308    2    0
+   Numbers of high, medium and low quality torsion parameters =  458    8    2
+   Interactions examined:        949 of        949 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      171   constrained=        0
+         Bend total=      310   constrained=        0        linear=        0
+      Torsion total=      513   constrained=        0  out-of-plane=       45
+    Nonbonded total=    12560      H-bonded=        0      ordinary=    12560
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12560
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   78 E =     215.612 (  1.442) kJ/mol
+ Read   172 atoms. Structure name, if any, appears on next line: 
+ 78
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  179    2    0
+   Numbers of high, medium and low quality bend parameters    =  329    2    0
+   Numbers of high, medium and low quality torsion parameters =  485   10    2
+   Interactions examined:       1009 of       1009 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      181   constrained=        0
+         Bend total=      331   constrained=        0        linear=        0
+      Torsion total=      541   constrained=        0  out-of-plane=       44
+    Nonbonded total=    14194      H-bonded=        0      ordinary=    14194
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14194
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   79 E =      66.378 (  1.946) kJ/mol
+ Read   168 atoms. Structure name, if any, appears on next line: 
+ 79
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  176    2    0
+   Numbers of high, medium and low quality bend parameters    =  324    2    0
+   Numbers of high, medium and low quality torsion parameters =  479   10    2
+   Interactions examined:        995 of        995 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      178   constrained=        0
+         Bend total=      326   constrained=        0        linear=        0
+      Torsion total=      535   constrained=        0  out-of-plane=       44
+    Nonbonded total=    13526      H-bonded=        0      ordinary=    13526
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13526
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   80 E =     -82.742 (  2.185) kJ/mol
+ Read   165 atoms. Structure name, if any, appears on next line: 
+ 80
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  173    2    0
+   Numbers of high, medium and low quality bend parameters    =  318    2    0
+   Numbers of high, medium and low quality torsion parameters =  476   10    2
+   Interactions examined:        983 of        983 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      175   constrained=        0
+         Bend total=      320   constrained=        0        linear=        0
+      Torsion total=      532   constrained=        0  out-of-plane=       44
+    Nonbonded total=    13035      H-bonded=        0      ordinary=    13035
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13035
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   81 E =    -275.615 (  2.022) kJ/mol
+ Read   176 atoms. Structure name, if any, appears on next line: 
+ 81
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  183    2    0
+   Numbers of high, medium and low quality bend parameters    =  340    2    0
+   Numbers of high, medium and low quality torsion parameters =  508   10    2
+   Interactions examined:       1047 of       1047 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      185   constrained=        0
+         Bend total=      342   constrained=        0        linear=        0
+      Torsion total=      562   constrained=        0  out-of-plane=       42
+    Nonbonded total=    14875      H-bonded=        0      ordinary=    14875
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14875
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   82 E =    -155.418 (  8.793) kJ/mol
+ Read   170 atoms. Structure name, if any, appears on next line: 
+ 82
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  178    2    0
+   Numbers of high, medium and low quality bend parameters    =  329    2    0
+   Numbers of high, medium and low quality torsion parameters =  488   10    2
+   Interactions examined:       1011 of       1011 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      180   constrained=        0
+         Bend total=      331   constrained=        0        linear=        0
+      Torsion total=      544   constrained=        0  out-of-plane=       44
+    Nonbonded total=    13857      H-bonded=        0      ordinary=    13857
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13857
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   83 E =     323.518 (  6.278) kJ/mol
+ Read   157 atoms. Structure name, if any, appears on next line: 
+ 83
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  165    1    0
+   Numbers of high, medium and low quality bend parameters    =  304    2    0
+   Numbers of high, medium and low quality torsion parameters =  459    7    2
+   Interactions examined:        940 of        940 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      166   constrained=        0
+         Bend total=      306   constrained=        0        linear=        0
+      Torsion total=      508   constrained=        0  out-of-plane=       40
+    Nonbonded total=    11776      H-bonded=        0      ordinary=    11776
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11776
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   84 E =     352.964 (  2.357) kJ/mol
+ Read   181 atoms. Structure name, if any, appears on next line: 
+ 84
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  190    2    0
+   Numbers of high, medium and low quality bend parameters    =  348    2    1
+   Numbers of high, medium and low quality torsion parameters =  522   10    1
+   Interactions examined:       1076 of       1076 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      192   constrained=        0
+         Bend total=      351   constrained=        0        linear=        0
+      Torsion total=      581   constrained=        0  out-of-plane=       48
+    Nonbonded total=    15749      H-bonded=        0      ordinary=    15749
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    15749
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   85 E =    -306.024 (  9.374) kJ/mol
+ Read   164 atoms. Structure name, if any, appears on next line: 
+ 85
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  171    2    0
+   Numbers of high, medium and low quality bend parameters    =  316    2    0
+   Numbers of high, medium and low quality torsion parameters =  476   10    2
+   Interactions examined:        979 of        979 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      173   constrained=        0
+         Bend total=      318   constrained=        0        linear=        0
+      Torsion total=      530   constrained=        0  out-of-plane=       42
+    Nonbonded total=    12875      H-bonded=        0      ordinary=    12875
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12875
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   86 E =     -68.769 (  1.274) kJ/mol
+ Read   168 atoms. Structure name, if any, appears on next line: 
+ 86
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  176    2    0
+   Numbers of high, medium and low quality bend parameters    =  324    2    0
+   Numbers of high, medium and low quality torsion parameters =  485   10    2
+   Interactions examined:       1001 of       1001 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      178   constrained=        0
+         Bend total=      326   constrained=        0        linear=        0
+      Torsion total=      541   constrained=        0  out-of-plane=       44
+    Nonbonded total=    13527      H-bonded=        0      ordinary=    13527
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13527
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   87 E =    -286.273 (  2.151) kJ/mol
+ Read   172 atoms. Structure name, if any, appears on next line: 
+ 87
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  179    2    0
+   Numbers of high, medium and low quality bend parameters    =  327    2    0
+   Numbers of high, medium and low quality torsion parameters =  479   10    2
+   Interactions examined:       1001 of       1001 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      181   constrained=        0
+         Bend total=      329   constrained=        0        linear=        0
+      Torsion total=      535   constrained=        0  out-of-plane=       44
+    Nonbonded total=    14199      H-bonded=        0      ordinary=    14199
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    14199
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   88 E =    -266.670 ( 11.632) kJ/mol
+ Read   152 atoms. Structure name, if any, appears on next line: 
+ 88
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  161    0    0
+   Numbers of high, medium and low quality bend parameters    =  288    2    0
+   Numbers of high, medium and low quality torsion parameters =  425    7    2
+   Interactions examined:        885 of        885 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      161   constrained=        0
+         Bend total=      290   constrained=        0        linear=        0
+      Torsion total=      478   constrained=        0  out-of-plane=       44
+    Nonbonded total=    11027      H-bonded=        0      ordinary=    11027
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    11027
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   89 E =     -72.352 (  0.585) kJ/mol
+ Read   163 atoms. Structure name, if any, appears on next line: 
+ 89
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  170    2    0
+   Numbers of high, medium and low quality bend parameters    =  310    2    0
+   Numbers of high, medium and low quality torsion parameters =  461    9    2
+   Interactions examined:        956 of        956 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      172   constrained=        0
+         Bend total=      312   constrained=        0        linear=        0
+      Torsion total=      518   constrained=        0  out-of-plane=       46
+    Nonbonded total=    12719      H-bonded=        0      ordinary=    12719
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12719
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   90 E =     280.190 (  5.102) kJ/mol
+ Read   159 atoms. Structure name, if any, appears on next line: 
+ 90
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  166    2    0
+   Numbers of high, medium and low quality bend parameters    =  302    1    0
+   Numbers of high, medium and low quality torsion parameters =  443    6    2
+   Interactions examined:        922 of        922 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      168   constrained=        0
+         Bend total=      303   constrained=        0        linear=        0
+      Torsion total=      495   constrained=        0  out-of-plane=       44
+    Nonbonded total=    12090      H-bonded=        0      ordinary=    12090
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12090
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   91 E =     317.561 (  2.162) kJ/mol
+ Read   165 atoms. Structure name, if any, appears on next line: 
+ 91
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  171    2    0
+   Numbers of high, medium and low quality bend parameters    =  316    2    0
+   Numbers of high, medium and low quality torsion parameters =  470    9    2
+   Interactions examined:        972 of        972 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      173   constrained=        0
+         Bend total=      318   constrained=        0        linear=        0
+      Torsion total=      521   constrained=        0  out-of-plane=       40
+    Nonbonded total=    13042      H-bonded=        0      ordinary=    13042
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    13042
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   92 E =     -51.944 (  6.953) kJ/mol
+ Read   160 atoms. Structure name, if any, appears on next line: 
+ 92
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  167    2    0
+   Numbers of high, medium and low quality bend parameters    =  310    2    0
+   Numbers of high, medium and low quality torsion parameters =  467    9    2
+   Interactions examined:        959 of        959 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      169   constrained=        0
+         Bend total=      312   constrained=        0        linear=        0
+      Torsion total=      518   constrained=        0  out-of-plane=       40
+    Nonbonded total=    12242      H-bonded=        0      ordinary=    12242
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    12242
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   93 E =     613.462 (  2.378) kJ/mol
+ Read   184 atoms. Structure name, if any, appears on next line: 
+ 93
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  191    2    0
+   Numbers of high, medium and low quality bend parameters    =  349    2    1
+   Numbers of high, medium and low quality torsion parameters =  513   10    1
+   Interactions examined:       1069 of       1069 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      193   constrained=        0
+         Bend total=      352   constrained=        0        linear=        0
+      Torsion total=      571   constrained=        0  out-of-plane=       47
+    Nonbonded total=    16291      H-bonded=        0      ordinary=    16291
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving    16291
+  Fixed/frozen atms=       70         fixed=       70        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Starting conjugate gradient minimization.
+ Iterations =         200  out of          200
+ Conf   94 E =    -160.313 (  1.570) kJ/mol
+ Total number of structures processed =          94
+ 
+BatchMin: normal termination                           05-Apr-2023 23:51:17
+
+real	0m36.850s
+user	0m34.188s
+sys	0m2.446s
