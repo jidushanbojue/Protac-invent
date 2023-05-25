@@ -1,0 +1,163 @@
+{
+    "version": 3,
+    "model_type": "link_invent",
+    "run_type": "reinforcement_learning",
+    "logging": {
+        "sender": "",
+        "recipient": "local",
+        "logging_path": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/BTK/progress_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3.log",
+        "result_folder": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/BTK/result_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3",
+        "job_name": "Pro-INVENT",
+        "job_id": "N/A"
+    },
+    "parameters": {
+        "actor": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/models/linkinvent.prior",
+        "critic": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/models/linkinvent.prior",
+        "warheads": [
+            "NC(=O)c1c(N)n(nc1-c1ccc(Oc2ccc(F)cc2F)cc1)[C@@H]1CCCN(C1)[100C](*)=O|CN[C@@H](C)C(=O)N[C@H](C(=O)N1Cc2cc([101O]*)ccc2C[C@H]1C(=O)N[C@@H]1CCCc2ccccc12)C(C)(C)C"
+        ],
+        "n_steps": 200,
+        "learning_rate": 0.0001,
+        "batch_size": 100,
+        "randomize_warheads": true,
+        "learning_strategy": {
+            "name": "dap",
+            "parameters": {
+                "sigma": 120
+            }
+        },
+        "scoring_strategy": {
+            "name": "link_invent",
+            "diversity_filter": {
+                "bucket_size": 25,
+                "minscore": 0,
+                "minsimilarity": 0,
+                "name": "IdenticalMurckoScaffold"
+            },
+            "scoring_function": {
+                "name": "custom_sum",
+                "parallel": false,
+                "parameters": [
+                    {
+                        "component_type": "parallel_rocs_similarity",
+                        "name": "Tanimoto ROCS sim",
+                        "specific_parameters": {
+                            "shape_weight": 1.0,
+                            "color_weight": 0.0,
+                            "custom_cff": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/BTK/6w8i_ligand.cff",
+                            "enumerate_stereo": true,
+                            "input_type": "shape_query",
+                            "max_num_cpus": 40,
+                            "rocs_input": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/BTK/6w8i_ligand.sq",
+                            "similarity_measure": "Tanimoto",
+                            "transformation": {
+                                "transformation_type": "no_transformation"
+                            },
+                            "rocs_overlays_dir": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/BTK/process_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3",
+                            "save_rocs_overlays": true,
+                            "warhead1_reference": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/BTK/warhead_last_isotope_contain_oxygen.sdf",
+                            "warhead2_reference": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/BTK/e3_ligand_last_isotope_contain_oxygen.sdf",
+                            "minimization_config": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/BTK/process_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3/minimization_with_constrain.com"
+                        },
+                        "weight": 0
+                    },
+                    {
+                        "component_type": "custom_alerts",
+                        "name": "Custom alerts",
+                        "weight": 1,
+                        "specific_parameters": {
+                        "smiles": [
+                                "[*;r8]",
+                                "[*;r9]",
+                                "[*;r10]",
+                                "[*;r11]",
+                                "[*;r12]",
+                                "[*;r13]",
+                                "[*;r14]",
+                                "[*;r15]",
+                                "[*;r16]",
+                                "[*;r17]",
+                                "[#8][#8]",
+                                "[#6;+]",
+                                "[#16][#16]",
+                                "[#7;!n][S;!$(S(=O)=O)]",
+                                "[#7;!n][#7;!n]",
+                                "C#C",
+                                "C(=[O,S])[O,S]",
+                                "[#7;!n][C;!$(C(=[O,N])[N,O])][#16;!s]",
+                                "[#7;!n][C;!$(C(=[O,N])[N,O])][#7;!n]",
+                                "[#7;!n][C;!$(C(=[O,N])[N,O])][#8;!o]",
+                                "[#8;!o][C;!$(C(=[O,N])[N,O])][#16;!s]",
+                                "[#8;!o][C;!$(C(=[O,N])[N,O])][#8;!o]",
+                                "[#16;!s][C;!$(C(=[O,N])[N,O])][#16;!s]",
+                                "[#6][#7][#8]"
+                                ]
+                        }
+                    },
+
+                    {
+                        "weight": 1,
+                        "component_type": "linker_num_aromatic_rings",
+                        "name": "Linker Num Aromatic Rings",
+                        "specific_parameters": {
+                        "transformation": {
+                            "high": 1,
+                            "low": 0,
+                            "transformation_type": "step"
+                            }
+                        }
+                    },
+
+                    {
+                        "weight": 1,
+                        "component_type": "linker_effective_length",
+                        "name": "Linker Effective Length",
+                        "specific_parameters": {
+                        "transformation": {
+                            "high": 9,
+                            "low": 7,
+                            "transformation_type": "step"
+                            }
+                        }
+                    },
+
+                    {
+                        "component_type": "dockstream",
+                        "name": "ADV",
+                        "weight": 1,
+                        "specific_parameters": {
+                            "transformation": {
+                                "transformation_type": "reverse_sigmoid",
+                                "low": -10,
+                                "high": 0,
+                                "k": 0.25
+                            },
+                            "configuration_path": "/data/baiqing/PycharmProjects/DockStream-master/result/BTK/BTK_docking_weight1_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3.json",
+                            "docker_script_path": "/data/baiqing/PycharmProjects/DockStream-master/docker.py",
+
+                            "environment_path": "/home/baiqing/anaconda3/envs/DockStream/bin/python"
+                        }
+                    },
+                    {
+                        "component_type": "docked_parallel_rocs_similarity",
+                        "name": "PostDock Tanimoto ROCS sim",
+                        "specific_parameters": {
+                            "shape_weight": 1.0,
+                            "color_weight": 0.0,
+                            "enumerate_stereo": true,
+                            "input_type": "sdf",
+                            "max_num_cpus": 120,
+                            "rocs_input": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/BTK/warheads_contain_oxygen.sdf",
+                            "similarity_measure": "Tanimoto",
+                            "transformation": {
+                                "transformation_type": "no_transformation"
+                            },
+                            "docked_poses_path": "/data/baiqing/PycharmProjects/DockStream-master/result/BTK/docked_result_docking_weight1_custom_sum_contain_oxygen_bond_distance_aromatic_linkinvent_7_9_3"
+                        },
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    }
+}
