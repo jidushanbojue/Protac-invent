@@ -1,0 +1,19 @@
+"Count","Link Length","Score Component","Total Count","Ratio"
+12441,"No Constraint","Average Score > 0.8",17673,0.7039551858767612
+9692,"7~9","Average Score > 0.8",17869,0.5423918518103978
+11574,"7~11","Average Score > 0.8",17326,0.6680133902805033
+12953,"7~13","Average Score > 0.8",18108,0.7153191959354981
+12164,"7~15","Average Score > 0.8",17714,0.6866884949757254
+2586,"No RL","Average Score > 0.8",5124,0.5046838407494145
+9470,"No Constraint","raw ADV Score < -10.9",17673,0.5358456402421773
+13005,"7~9","raw ADV Score < -10.9",17869,0.7277967429626728
+11831,"7~11","raw ADV Score < -10.9",17326,0.6828465889414752
+11610,"7~13","raw ADV Score < -10.9",18108,0.6411530815109344
+11738,"7~15","raw ADV Score < -10.9",17714,0.6626397199954838
+1782,"No RL","raw ADV Score < -10.9",5124,0.3477751756440281
+10556,"No Constraint","Shape Similarity of PostDock > 0.9",17673,0.5972953092287671
+12891,"7~9","Shape Similarity of PostDock > 0.9",17869,0.7214169791258604
+12705,"7~11","Shape Similarity of PostDock > 0.9",17326,0.7332910077340413
+12390,"7~13","Shape Similarity of PostDock > 0.9",18108,0.6842279655400928
+12175,"7~15","Shape Similarity of PostDock > 0.9",17714,0.6873094727334312
+2554,"No RL","Shape Similarity of PostDock > 0.9",5124,0.49843871975019516
