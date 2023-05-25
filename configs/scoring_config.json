@@ -1,0 +1,90 @@
+{
+    "logging": {
+        "job_id": "demo",
+        "job_name": "Scoring mode demo",
+        "logging_path": "/data/baiqing/PycharmProjects/REINVENT_scoring_demo/progress.log",
+        "recipient": "local",
+        "sender": "http://127.0.0.1"
+    },
+    "model_type": "default",
+    "parameters": {
+        "scoring": {
+            "input": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/data/smiles.smi"
+        },
+        "scoring_function": {
+            "name": "custom_product",
+            "parameters": [
+                {
+                    "component_type": "predictive_property",
+                    "name": "Regression model",
+                    "specific_parameters": {
+                        "descriptor_type": "ecfp_counts",
+                        "model_path": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/models/Aurora_model.pkl",
+                        "radius": 3,
+                        "scikit": "regression",
+                        "size": 2048,
+                        "transformation": {
+                            "high": 9,
+                            "k": 0.25,
+                            "low": 4,
+                            "transformation_type": "sigmoid"
+                        },
+                        "use_counts": true,
+                        "use_features": true
+                    },
+                    "weight": 2
+                },
+                {
+                    "component_type": "matching_substructure",
+                    "name": "Matching substructure",
+                    "specific_parameters": {
+                        "smiles": [
+                            "c1ccccc1CC"
+                        ]
+                    },
+                    "weight": 1
+                },
+                {
+                    "component_type": "custom_alerts",
+                    "name": "Custom alerts",
+                    "specific_parameters": {
+                        "smiles": [
+                            "[*;r8]",
+                            "[*;r9]",
+                            "[*;r10]",
+                            "[*;r11]",
+                            "[*;r12]",
+                            "[*;r13]",
+                            "[*;r14]",
+                            "[*;r15]",
+                            "[*;r16]",
+                            "[*;r17]",
+                            "[#8][#8]",
+                            "[#6;+]",
+                            "[#16][#16]",
+                            "[#7;!n][S;!$(S(=O)=O)]",
+                            "[#7;!n][#7;!n]",
+                            "C#C",
+                            "C(=[O,S])[O,S]",
+                            "[#7;!n][C;!$(C(=[O,N])[N,O])][#16;!s]",
+                            "[#7;!n][C;!$(C(=[O,N])[N,O])][#7;!n]",
+                            "[#7;!n][C;!$(C(=[O,N])[N,O])][#8;!o]",
+                            "[#8;!o][C;!$(C(=[O,N])[N,O])][#16;!s]",
+                            "[#8;!o][C;!$(C(=[O,N])[N,O])][#8;!o]",
+                            "[#16;!s][C;!$(C(=[O,N])[N,O])][#16;!s]"
+                        ]
+                    },
+                    "weight": 1
+                },
+                {
+                    "component_type": "qed_score",
+                    "name": "QED Score",
+                    "specific_parameters": null,
+                    "weight": 1
+                }
+            ]
+        }
+    },
+    "run_type": "scoring",
+    "version": 3
+}

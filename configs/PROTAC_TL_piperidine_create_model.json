@@ -1,0 +1,32 @@
+{
+    "logging": {
+        "job_id": "ProtacDB+ZINC-DB",
+        "job_name": "link-invent transfer-learning",
+        "logging_path": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/TL_log_piperidine_create_model",
+        "recipient": "local",
+        "sender": "",
+        "result_folder": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/TL_log_piperidine_create_model_result"
+    },
+    "model_type": "link_invent",
+    "parameters": {
+        "adaptive_lr_config": {
+            "average_steps": 4,
+            "gamma": 0.8,
+            "min": 1e-05,
+            "mode": "adaptive",
+            "patience": 8,
+            "restart_times": 0,
+            "restart_value": 1e-05,
+            "sample_size": 10000,
+            "start": 0.0005,
+            "step": 1,
+            "threshold": 0.0001
+        },
+        "batch_size": 128,
+        "empty_model": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/models/linkinvent.prior",
+        "input_smiles_path": "/data/baiqing/PycharmProjects/Lib-INVENT-main/training_sets/Chembl_piperidine_training_validate_linkinvent.csv",
+        "output_model_path": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/TL_output_piperidine_create_model/PROTAC_piperidine_empty.model"
+    },
+    "run_type": "create_model",
+    "version": 3
+}

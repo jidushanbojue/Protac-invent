@@ -1,0 +1,43 @@
+{
+    "logging": {
+        "job_id": "ProtacDB+ZINC-DB",
+        "job_name": "link-invent transfer-learning",
+        "logging_path": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/TL_src_warheads_log_10epochs",
+        "recipient": "local",
+        "sender": ""
+    },
+    "model_type": "link_invent",
+    "parameters": {
+        "adaptive_lr_config": {
+            "average_steps": 4,
+            "gamma": 0.8,
+            "min": 1e-05,
+            "mode": "adaptive",
+            "patience": 8,
+            "restart_times": 0,
+            "restart_value": 1e-05,
+            "sample_size": 10000,
+            "start": 0.0005,
+            "step": 1,
+            "threshold": 0.0001
+        },
+        "batch_size": 128,
+        "empty_model": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/models/linkinvent.prior",
+        "input_smiles_path": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/TL_data_src_warheads.csv",
+        "num_epochs": 10,
+        "randomize": true,
+        "save_model_frequency": 1,
+        "standardize": false,
+        "model_file_name": "PROTAC_TL.model",
+        "sample_size": 10000,
+        "output_path": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/TL_src_warheads_output_10epochs",
+        "learning_rate": {
+                "start": 0.0001,
+                "min": 0.000001,
+                "gamma": 0.95,
+                "step": 1
+        }
+    },
+    "run_type": "transfer_learning",
+    "version": 3
+}
