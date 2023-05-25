@@ -1,0 +1,2 @@
+smiles,total_score,Tanimoto ROCS sim,valid
+Cc1sc-2c(c1C)C(=N[C@@H](C[100C](=O)[101NH]CCCCCCCCNC(=O)C[100O][101c]1cccc3C(=O)N([C@H]4CCC(=O)NC4=O)C(=O)c13)c1nnc(C)n-21)c1ccc(Cl)cc1,1.0,0.40439856,1

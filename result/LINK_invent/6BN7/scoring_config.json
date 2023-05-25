@@ -1,0 +1,112 @@
+{
+    "logging": {
+        "job_id": "demo",
+        "job_name": "Scoring mode demo",
+        "logging_path": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/6BN7/scoring.log",
+        "recipient": "local",
+        "sender": "http://127.0.0.1"
+    },
+    "model_type": "link-invent",
+    "parameters": {
+        "scoring": {
+            "input": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/6BN7/score_smiles.smi"
+        },
+        "scoring_function": {
+            "name": "custom_sum",
+            "parameters": [
+                    {
+                        "component_type": "parallel_rocs_similarity",
+                        "name": "Tanimoto ROCS sim",
+                        "specific_parameters": {
+                            "shape_weight": 1.0,
+                            "color_weight": 0.0,
+                            "custom_cff": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/6BN7/6bn7_ligand.cff",
+                            "enumerate_stereo": true,
+                            "input_type": "shape_query",
+                            "max_num_cpus": 120,
+                            "rocs_input": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/6BN7/6bn7_ligand.sq",
+                            "similarity_measure": "Tanimoto",
+                            "transformation": {
+                                "transformation_type": "no_transformation"
+                            },
+                            "rocs_overlays_dir": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/6BN7/scoring_process",
+                            "save_rocs_overlays": true,
+                            "warhead1_reference": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/6BN7/warhead_last_isotope.sdf",
+                            "warhead2_reference": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/6BN7/e3_ligand_last_isotope.sdf",
+                            "minimization_config": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/6BN7/scoring_process/minimization_with_constrain.com"
+                        },
+                        "weight": 0
+                    },
+                    {
+                        "component_type": "custom_alerts",
+                        "name": "Custom alerts",
+                        "weight": 1,
+                        "specific_parameters": {
+                        "smiles": [
+                                "[*;r8]",
+                                "[*;r9]",
+                                "[*;r10]",
+                                "[*;r11]",
+                                "[*;r12]",
+                                "[*;r13]",
+                                "[*;r14]",
+                                "[*;r15]",
+                                "[*;r16]",
+                                "[*;r17]",
+                                "[#8][#8]",
+                                "[#6;+]",
+                                "[#16][#16]",
+                                "[#7;!n][S;!$(S(=O)=O)]",
+                                "[#7;!n][#7;!n]",
+                                "C#C",
+                                "C(=[O,S])[O,S]",
+                                "[#7;!n][C;!$(C(=[O,N])[N,O])][#16;!s]",
+                                "[#7;!n][C;!$(C(=[O,N])[N,O])][#7;!n]",
+                                "[#7;!n][C;!$(C(=[O,N])[N,O])][#8;!o]",
+                                "[#8;!o][C;!$(C(=[O,N])[N,O])][#16;!s]",
+                                "[#8;!o][C;!$(C(=[O,N])[N,O])][#8;!o]",
+                                "[#16;!s][C;!$(C(=[O,N])[N,O])][#16;!s]"
+                                ]
+                        }
+                    },
+                    {
+                        "component_type": "dockstream",
+                        "name": "ADV",
+                        "weight": 1,
+                        "specific_parameters": {
+                            "transformation": {
+                                "transformation_type": "reverse_sigmoid",
+                                "low": -10,
+                                "high": 0,
+                                "k": 0.25
+                            },
+                            "configuration_path": "/data/baiqing/PycharmProjects/DockStream-master/result/6BN7/6BN7_scoring.json",
+                            "docker_script_path": "/data/baiqing/PycharmProjects/DockStream-master/docker.py",
+
+                            "environment_path": "/home/baiqing/anaconda3/envs/DockStream/bin/python"
+                        }
+                    },
+                    {
+                        "component_type": "docked_parallel_rocs_similarity",
+                        "name": "PostDock Tanimoto ROCS sim",
+                        "specific_parameters": {
+                            "shape_weight": 1.0,
+                            "color_weight": 0.0,
+                            "enumerate_stereo": true,
+                            "input_type": "sdf",
+                            "max_num_cpus": 120,
+                            "rocs_input": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/6BN7/warheads.sdf",
+                            "similarity_measure": "Tanimoto",
+                            "transformation": {
+                                "transformation_type": "no_transformation"
+                            },
+                            "docked_poses_path": "/data/baiqing/PycharmProjects/DockStream-master/result/6BN7/docked_result_docking_weight1_custom_product_scoring"
+                        },
+                        "weight": 1
+                    }
+            ]
+        }
+    },
+    "run_type": "scoring",
+    "version": 3
+}

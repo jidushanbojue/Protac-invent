@@ -1,0 +1,48 @@
+ 
+ JobID: localhost-0-643236a7
+ BatchMin V11.6    Build  116013  Starting Time 09-Apr-2023 11:53:12
+ MacroModel. Copyright Schrodinger, LLC.
+ All rights reserved.
+
+ Input filename:  /data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/6HR2/scoring_process/rearranged_h.mae
+ Output filename: /data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/6HR2/scoring_process/rearranged_h_mini.mae
+ Atom-type file: /data/Programs/Schrodinger_2017/mmshare-v3.8/bin/Linux-x86_64/../../data/atom.typ
+WARNING: BDCO arg5 is less than the electrostatic cutoff
+  This value has been increased to the electrostatic cutoff value: ********
+WARNING: BDCO arg6 is less than the electrostatic cutoff
+  This value has been increased to the electrostatic cutoff value: ********
+ Force field: /data/Programs/Schrodinger_2017/macromodel-v11.6/bin/Linux-x86_64/../../data/OPLS_2005.fld
+ Read   124 atoms. Structure name, if any, appears on next line: 
+ 0
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  131    0    0
+   Numbers of high, medium and low quality bend parameters    =  235    0    0
+   Numbers of high, medium and low quality torsion parameters =  348    0    1
+   Interactions examined:        715 of        715 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      131   constrained=        0
+         Bend total=      235   constrained=        0        linear=        0
+      Torsion total=      382   constrained=        0  out-of-plane=       33
+    Nonbonded total=     7263      H-bonded=        0      ordinary=     7263
+  Nonbonded cutoffs: CutVdw=  0.100E+11;  CutEs=  0.100E+11
+                              fix/frz-moving        0  moving-moving     7263
+  Fixed/frozen atms=       57         fixed=       57        frozen=        0
+ Special solvation fixed/frozen atom and interaction classes:
+   Fm are fixed/frozen atoms that interact with moving atoms; Ff do not.
+   Fmm are Fm atoms treated as M in GB, based on CutFmm=   8.00    
+   Fmf are Fm atoms which are not Fmm.
+     Fm=          0     Ff=          0
+     Fmm=          0     Fmf=          0    Fmm-Fmm pairs=          0
+ Solvent file: /data/Programs/Schrodinger_2017/macromodel-v11.6/bin/Linux-x86_64/../../data/water.slv
+    Block specifies desired NFIELD -- accepting block
+ Starting conjugate gradient minimization.
+ Minimization converged; gradient = 0.230E-01 .LT.  0.500E-01
+ Iterations =         190  out of          200
+ Conf    1 E =      27.473 (  0.023) kJ/mol
+ Total number of structures processed =           1
+ 
+BatchMin: normal termination                           09-Apr-2023 11:53:14
+
+real	0m3.128s
+user	0m1.422s
+sys	0m1.561s

@@ -1,0 +1,42 @@
+{
+    "logging": {
+        "job_id": "demo",
+        "job_name": "Scoring mode demo",
+        "logging_path": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/6HAY/initial_pose_generation.log",
+        "recipient": "local",
+        "sender": "http://127.0.0.1"
+    },
+    "model_type": "link-invent",
+    "parameters": {
+        "scoring": {
+            "input": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/6HAY/score_smiles.smi.csv"
+        },
+        "scoring_function": {
+            "name": "custom_sum",
+            "parameters": [
+                {
+                    "component_type": "parallel_rocs_similarity",
+                    "name": "Tanimoto ROCS sim",
+                    "specific_parameters": {
+                        "color_weight": 0.0,
+                        "custom_cff": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/6HAY/6hay_ligand.cff",
+                        "enumerate_stereo": true,
+                        "input_type": "shape_query",
+                        "max_num_cpus": 120,
+                        "rocs_input": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/data/protac/6HAY/6hay_ligand.sq",
+                        "rocs_overlays_dir": "/data/baiqing/PycharmProjects/Reinvent-master-3.2/result/LINK_invent/6HAY/initial_pose_generation",
+                        "save_rocs_overlays": true,
+                        "shape_weight": 1.0,
+                        "similarity_measure": "Tanimoto",
+                        "transformation": {
+                            "transformation_type": "no_transformation"
+                        }
+                    },
+                    "weight": 0
+                }
+            ]
+        }
+    },
+    "run_type": "scoring",
+    "version": 3
+}

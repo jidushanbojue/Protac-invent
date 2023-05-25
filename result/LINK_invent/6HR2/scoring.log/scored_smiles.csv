@@ -1,0 +1,2 @@
+smiles,total_score,Tanimoto ROCS sim,Custom alerts,ADV,PostDock Tanimoto ROCS sim,raw_ADV,valid
+C1CC1(F)C(=O)N[C@@H](C(C)(C)C)C(=O)N2C[C@H](O)C[C@H]2C(=O)NCc(ccc3-c4scnc4C)c(c3)[101O][101CH2]Cc5ccc(cc5)[100CH2][100N]6CCN(CC6)c7cc(nnc7N)-c8ccccc8O,0.99214506,0.4052535,1.0,0.99418277,0.9901073,-13.931,1
