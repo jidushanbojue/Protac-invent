@@ -22,37 +22,26 @@ Installation
 1. Install [Conda](https://conda.io/projects/conda/en/latest/index.html)
 2. Clone this Git repository
 3. Open a shell, and go to the repository and create the Conda environment:
-
-        $ conda env create -f env.yml
-        $ cd reinvent_scoring
-        $ pip install .
-
-4. Activate the environment:
-
-        $ conda activate Protac_invent
-
-5. Use the tool.
-
-REINVENT 3.2
-=================================================================================================================
-
-Installation
--------------
-
-1. Install [Conda](https://conda.io/projects/conda/en/latest/index.html)
-2. Clone this Git repository
-3. Open a shell, and go to the repository and create the Conda environment:
    
         $ conda env create -f reinvent.yml
 
-
 4. Activate the environment:
-   
+
         $ conda activate reinvent.v3.2
 
-5. Use the tool.
+5. Open another shell, and clone in-house [DockStream](https://github.com/jidushanbojue/DockStream-master) repository
+        $ conda env create -f environment.yml
+
+
+
+
+
 
 ## Usage
-1. Edit template Json file (for example in result/LINK_invent/BTK/template.json)
+1. Edit template Json file (for example in result/LINK_invent/BTK/template.json).
    Templates can be manually edited before using. The only thing that needs modification for a standard run are the file and folder paths. Most running modes produce logs that can be monitored by tensorboard
 2. python input.py template.json
+
+## Analyse the results
+
+1. tensorboard --logdir "progress.log" # progress.log is the "logging_path" in template.json
