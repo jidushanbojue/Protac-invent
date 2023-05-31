@@ -24,6 +24,8 @@ Installation
 3. Open a shell, and go to the repository and create the Conda environment:
 
         $ conda env create -f env.yml
+        $ cd reinvent_scoring
+        $ pip install .
 
 4. Activate the environment:
 
@@ -42,6 +44,7 @@ Installation
 3. Open a shell, and go to the repository and create the Conda environment:
    
         $ conda env create -f reinvent.yml
+
 
 4. Activate the environment:
    
