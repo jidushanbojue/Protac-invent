@@ -30,6 +30,7 @@ Installation
         $ conda activate reinvent.v3.2
 
 5. Open another shell, and clone in-house [DockStream](https://github.com/jidushanbojue/DockStream-master) repository
+
         $ conda env create -f environment.yml
 
 
