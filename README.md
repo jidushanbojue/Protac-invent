@@ -13,6 +13,24 @@ Thanks a lot for their sharing.
 ### **Figure 3. The workflow of generating and scoring 3D binding conformation of PROTAC</center>**
 ![Figure1](https://github.com/jidushanbojue/Protac-invent/blob/master/my_script/picture/image/figure3.png "Figure3")
 
+
+## Quick start
+
+Installation
+-------------
+
+1. Install [Conda](https://conda.io/projects/conda/en/latest/index.html)
+2. Clone this Git repository
+3. Open a shell, and go to the repository and create the Conda environment:
+
+        $ conda env create -f env.yml
+
+4. Activate the environment:
+
+        $ conda activate Protac_invent
+
+5. Use the tool.
+
 REINVENT 3.2
 =================================================================================================================
 
