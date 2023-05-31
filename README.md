@@ -40,6 +40,7 @@ Installation
 
 ## Usage
 1. Edit template Json file (for example in result/LINK_invent/BTK/template.json).
+
    Templates can be manually edited before using. The only thing that needs modification for a standard run are the file and folder paths. Most running modes produce logs that can be monitored by tensorboard
 2. python input.py template.json
 
