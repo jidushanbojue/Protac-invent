@@ -7,6 +7,12 @@ Thanks a lot for their sharing.
 ### **Figure 1. Illustration of PROTAC-invent model</center>**
 ![Figure1](https://github.com/jidushanbojue/Protac-invent/blob/master/my_script/picture/image/figure1.png "Figure1")
 
+### **Figure 2. The general workflow of PROTAC-invent</center>**
+![Figure1](https://github.com/jidushanbojue/Protac-invent/blob/master/my_script/picture/image/figure2.png "Figure2")
+
+### **Figure 3. The workflow of generating and scoring 3D binding conformation of PROTAC</center>**
+![Figure1](https://github.com/jidushanbojue/Protac-invent/blob/master/my_script/picture/image/figure3.png "Figure3")
+
 REINVENT 3.2
 =================================================================================================================
 
