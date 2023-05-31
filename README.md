@@ -46,4 +46,6 @@ Installation
 
 ## Analyse the results
 
-1. tensorboard --logdir "progress.log" # progress.log is the "logging_path" in template.json
+1. tensorboard --logdir "progress.log"
+
+progress.log is the "logging_path" in template.json
