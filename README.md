@@ -4,8 +4,8 @@ The code was built based on Reinvent (https://github.com/MolecularAI/Reinvent), 
 Thanks a lot for their sharing.
 
 
-### **Figure 1. Model architecture of GraphRXN</center>**
-
+### **Figure 1. Illustration of PROTAC-invent model</center>**
+![Figure1](https://github.com/jidushanbojue/Protac-invent/blob/master/my_script/picture/image/figure1.png "Figure1")
 
 REINVENT 3.2
 =================================================================================================================
