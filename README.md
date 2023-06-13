@@ -29,7 +29,15 @@ Installation
 
         $ conda activate reinvent.v3.2
 
-5. Open another shell, and clone in-house [DockStream](https://github.com/jidushanbojue/DockStream-master) repository
+5. Install in-house reinvent_scoring
+
+        $ cd reinvent_scoring
+
+        $ pip install reinvent_scoring-0.0.73_bq-py3-none-any.whl
+
+6. Open another shell, and clone in-house [DockStream](https://github.com/jidushanbojue/DockStream-master) repository
+
+   This is the docking component special for Protac-invent.
 
         $ conda env create -f environment.yml
 
