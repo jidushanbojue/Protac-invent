@@ -1,0 +1,116 @@
+{
+    "version": 3,
+    "model_type": "link_invent",
+    "run_type": "reinforcement_learning",
+    "logging": {
+        "sender": "",
+        "recipient": "local",
+        "logging_path": "/data/baiqing/PycharmProjects/Protac-invent/result/LINK_invent/5T35/progress_docking_weight1_custom_sum_1.log",
+        "result_folder": "/data/baiqing/PycharmProjects/Protac-invent/result/LINK_invent/5T35/result_docking_weight1_custom_sum_1",
+        "job_name": "Pro-INVENT",
+        "job_id": "N/A"
+    },
+    "parameters": {
+        "actor": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/models/linkinvent.prior",
+        "critic": "/data/baiqing/PycharmProjects/ReinventCommunity-master/notebooks/models/linkinvent.prior",
+        "warheads": [
+            "N1CSC(=C1C)c2ccc(cc2)CNC(=O)[C@@H]3C[C@@H](O)CN3C(=O)[C@H](C(C)(C)C)N[15C](*)=O|c1cc(Cl)ccc1C(=N[C@H]2C[18C](*)=O)c(c(C)c(s3)C)c3n(c24)c(nn4)C"
+        ],
+        "n_steps": 200,
+        "learning_rate": 0.0001,
+        "batch_size": 100,
+        "randomize_warheads": true,
+        "learning_strategy": {
+            "name": "dap",
+            "parameters": {
+                "sigma": 120
+            }
+        },
+        "scoring_strategy": {
+            "name": "link_invent",
+            "diversity_filter": {
+                "bucket_size": 25,
+                "minscore": 0,
+                "minsimilarity": 0,
+                "name": "IdenticalMurckoScaffold"
+            },
+            "scoring_function": {
+                "name": "custom_sum",
+                "parallel": false,
+                "parameters": [
+                    {
+                        "component_type": "parallel_rocs_similarity",
+                        "name": "Tanimoto ROCS sim",
+                        "specific_parameters": {
+                            "shape_weight": 1.0,
+                            "color_weight": 0.0,
+                            "custom_cff": "/data/baiqing/PycharmProjects/Protac-invent/data/protac/5T35/5t35_ligand.cff",
+                            "enumerate_stereo": true,
+                            "input_type": "shape_query",
+                            "max_num_cpus": 100,
+                            "rocs_input": "/data/baiqing/PycharmProjects/Protac-invent/data/protac/5T35/5t35_ligand.sq",
+                            "similarity_measure": "Tanimoto",
+                            "transformation": {
+                                "transformation_type": "no_transformation"
+                            },
+                            "rocs_overlays_dir": "/data/baiqing/PycharmProjects/Protac-invent/result/LINK_invent/5T35/process_docking_weight1_custom_sum_1",
+                            "save_rocs_overlays": true,
+                            "warhead1_reference": "/data/baiqing/PycharmProjects/Protac-invent/data/protac/5T35/warhead_last_isotope.sdf",
+                            "warhead2_reference": "/data/baiqing/PycharmProjects/Protac-invent/data/protac/5T35/e3_ligand_last_isotope.sdf",
+                            "minimization_config": "/data/baiqing/PycharmProjects/Protac-invent/result/LINK_invent/5T35/process_docking_weight1_custom_sum_1/minimization_with_constrain.com"
+                        },
+                        "weight": 0
+                    },
+                    {
+                        "weight": 1,
+                        "component_type": "linker_num_aromatic_rings",
+                        "name": "Linker Num Aromatic Rings",
+                        "specific_parameters": {
+                        "transformation": {
+                            "high": 1,
+                            "low": 0,
+                            "transformation_type": "step"
+                            }
+                        }
+                    },
+
+                    {
+                        "component_type": "dockstream",
+                        "name": "ADV",
+                        "weight": 1,
+                        "specific_parameters": {
+                            "transformation": {
+                                "transformation_type": "reverse_sigmoid",
+                                "low": -10,
+                                "high": 0,
+                                "k": 0.25
+                            },
+                            "configuration_path": "/data/baiqing/PycharmProjects/DockStream-master/result/5T35/5T35_docking_weight1_custom_sum_1.json",
+                            "docker_script_path": "/data/baiqing/PycharmProjects/DockStream-master/docker.py",
+
+                            "environment_path": "/home/baiqing/anaconda3/envs/DockStream/bin/python"
+                        }
+                    },
+                    {
+                        "component_type": "docked_parallel_rocs_similarity",
+                        "name": "PostDock Tanimoto ROCS sim",
+                        "specific_parameters": {
+                            "shape_weight": 1.0,
+                            "color_weight": 0.0,
+                            "enumerate_stereo": true,
+                            "input_type": "sdf",
+                            "max_num_cpus": 120,S
+                            "rocs_input": "/data/baiqing/PycharmProjects/Protac-invent/data/protac/5T35/warheads.sdf",
+                            "similarity_measure": "Tanimoto",
+                            "transformation": {
+                                "transformation_type": "no_transformation"
+                            },
+                            "docked_poses_path": "/data/baiqing/PycharmProjects/DockStream-master/result/5T35/docked_result_docking_weight1_custom_sum_1"
+                        },
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    }
+}

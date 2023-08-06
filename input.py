@@ -9,7 +9,7 @@ from running_modes.manager import Manager
 
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 DEFAULT_BASE_CONFIG_PATH = (Path(__file__).parent / 'configs/config.json').resolve()
 
