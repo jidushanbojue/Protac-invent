@@ -43,9 +43,6 @@ Installation
 
 
 
-
-
-
 ## Usage
 1. Edit template Json file (for example in result/LINK_invent/BTK/template.json).
 
@@ -57,3 +54,8 @@ Installation
 1. tensorboard --logdir "progress.log"
 
     progress.log is the "logging_path" in template.json
+
+### We manually selected top200 solution for some specific Ternary Complex, such as BTK(PDB code: 6W8I), BAF(PDB code: 6HAX), BRD4(PDB code: 5T35), the result as follow:
+
+1. For BTK Ternary Complex:
+   BTK_poses_top200.sdf: (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BTK/BTK_poses_top200.sdf)
