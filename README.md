@@ -55,7 +55,21 @@ Installation
 
     progress.log is the "logging_path" in template.json
 
-### We manually selected top200 solution for some specific Ternary Complex, such as BTK(PDB code: 6W8I), BAF(PDB code: 6HAX), BRD4(PDB code: 5T35), the result as follow:
+### We selected top200 solutions for some specific Ternary Complex, such as BTK(PDB code: 6W8I), BAF(PDB code: 6HAX), BRD4(PDB code: 5T35), the result as follow:
 
 1. For BTK Ternary Complex:
    BTK_poses_top200.sdf: (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BTK/BTK_poses_top200.sdf)
+   BTK_scored_smiles_top200.xlsx (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BTK/BTK_scored_smiles_top200.xlsx)
+
+2. For BAF Ternary Complex
+   BAF_poses_top200.sdf: (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BAF/BAF_poses_top200.sdf)
+   BAF_scored_smiles_top200.xlsx (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BAF/BAF_scored_smiles_top200.xlsx)
+
+3. For BRD4 Ternary Complex
+   BRD4_poses_top200.sdf: (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BRD4/BRD4_poses_top200.sdf)
+   BTK_scored_smiles_top200.xlsx (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BRD4/BRD4_scored_smiles_top200.xlsx)
+
+### We manually selected 25 solutions for BTK, perform MD simulation and MM-GBSA calculation, the result as follow
+   26_PROTAC_MM-GBSA_value.xlsx (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BTK/26_PROTAC_MM-GBSA_value.xlsx)
+
+
