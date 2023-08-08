@@ -63,10 +63,12 @@ Installation
 
 2. For BAF Ternary Complex
    BAF_poses_top200.sdf: (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BAF/BAF_poses_top200.sdf)
+
    BAF_scored_smiles_top200.xlsx (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BAF/BAF_scored_smiles_top200.xlsx)
 
 3. For BRD4 Ternary Complex
    BRD4_poses_top200.sdf: (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BRD4/BRD4_poses_top200.sdf)
+
    BTK_scored_smiles_top200.xlsx (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BRD4/BRD4_scored_smiles_top200.xlsx)
 
 ### We manually selected 25 solutions for BTK, perform MD simulation and MM-GBSA calculation, the result as follow
