@@ -59,6 +59,7 @@ Installation
 
 1. For BTK Ternary Complex:
    BTK_poses_top200.sdf: (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BTK/BTK_poses_top200.sdf)
+
    BTK_scored_smiles_top200.xlsx (https://github.com/jidushanbojue/Protac-invent/tree/master/result/LINK_invent/BTK/BTK_scored_smiles_top200.xlsx)
 
 2. For BAF Ternary Complex
